@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     color: rgb(251, 108, 41);
     background-color: rgb(254, 209, 157);
@@ -10,38 +14,96 @@
     padding: 0.1rem;
     text-align: start;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+}
+
+li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .container {
-    border: 2px solid rgb(251, 108, 41);
-    padding: 4px;
-    width: 75vw;
-    height: 25vw;
+    border-style: solid;
+    border-color:rgb(255, 115, 0);
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem; 
     margin: auto;
-    text-align: left;
-    margin-top: 80px;
-    margin-bottom: 200px;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    width: 40%;
 }
 
-.h2{
+.container h2 {
+    background-color: rgb(231, 187, 128);
     color: rgb(251, 108, 41);
-    background-color: rgb(224, 190, 129);
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    border-color:rgb(251, 108, 41);
+    border-radius: 0.5rem
 }
 
-.result{
-    background-color: rgb(224, 190, 129);
-    border: border: 2px solid rgb(251, 108, 41);
-    width: 75vw;
-    height: 5vw;
+.container button {
+    background-color: rgb(231, 187, 128);
+    color: rgb(251, 108, 41);
+    border-radius: 0.5rem;
+    border-color: rgb(251, 108, 41);
+    padding: 0.3rem;
+}
+
+.container p {
+    background-color: rgb(231, 187, 128);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.dick {
+    border-style: solid;
+    border-color:rgb(255, 115, 0);
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: auto;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
+    width: 40%; 
+}
+.dick h2 {
+    background-color: rgb(231, 187, 128);
+    color: rgb(251, 108, 41);
+    padding: 1rem;
+    border-color:rgb(251, 108, 41);
+    border-radius: 0.5rem
 }
 
+.dick button {
+    background-color: rgb(231, 187, 128);
+    color: rgb(251, 108, 41);
+    border-radius: 0.5rem;
+    border-color: rgb(251, 108, 41);
+    padding: 0.3rem;
+}
+
+.dick p {
+    background-color: rgb(231, 187, 128);
+    padding: 6rem;
+    border-radius: 0.5rem;
+}
 .footer {
     color: white;
     background-color: rgb(255, 115, 0);
