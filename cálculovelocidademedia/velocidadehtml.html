@@ -14,27 +14,31 @@
     </div>
     <div class="nav">
     <nav>
-            <h3> <strong>Home</strong></h3>
-            <p>Sobre</p>
+            <ul>
+                <li><a href="./velocidadehtml.html"> Home </a> </li>
+                <li><a href="./velocidadehtml.html"> Sobre </a></li>
+            </ul>
     </nav>
     </div>
 
      <div class="container">
     <br><label></label><br>
-          <div class="h2">
         <h2>Cálculo</h2>
-         </div>
-    <input type="text" placeholder="Informe o valor do deslocamento" id="displacementInput">
+    <input type="number" placeholder="Informe o valor do deslocamento" id="displacementInput">
     <br><label></label><br>
-    <input type="text" placeholder="Informe o intervalo de tempo" id="timeInput">
-    <br><br> <button type= "button" onclick= "clean()" value= "limpar" id="clean">Limpar</button>
-    <br><br> <button type= "button"  onclick= "calcArithmethic()" value= "result" id="result">Calcular</button>
-    <div class="result">
-     <label> <h3></h3></label><br>
-    <p id="resultImput"></p> 
-      </div>
-    <br><br><br><br>
+    <input type="number" placeholder="Informe o intervalo de tempo" id="timeInput">
+    <br>
+    <br>
+    <button type= "button" onclick= "clean()" value= "limpar" >Limpar</button>
+    <button type= "button"  onclick= "calcArithmethic()" value= "result">Calcular</button>
+    <p id="result">⠀⠀</p>
+    </div>
+
+    <div class="dick">
+     <label> <h2>Resultado</h2></label><br>
+    <p id="resultImput">⠀⠀</p> 
      </div> 
+
      <div class="footer">
     <footer>
         <ul>
